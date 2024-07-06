@@ -13,4 +13,5 @@ import lombok.extern.jackson.Jacksonized;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CreateGitClientWebRepoRequest {
     String name;
+    String owner;
 }
