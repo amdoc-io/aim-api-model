@@ -4,7 +4,7 @@
 
   <groupId>com.amdoc</groupId>
   <artifactId>aim-api-model</artifactId>
-  <version>1.0.12</version>
+  <version>1.0.13</version>
   <packaging>jar</packaging>
 
   <name>aim-api-model</name>
@@ -39,7 +39,7 @@
     <dependency>
       <groupId>com.amdoc</groupId>
       <artifactId>aim-entity</artifactId>
-      <version>1.0.8</version>
+      <version>1.0.9</version>
     </dependency>
 
     <dependency>
