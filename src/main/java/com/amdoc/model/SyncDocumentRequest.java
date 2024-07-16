@@ -12,5 +12,5 @@ import lombok.extern.jackson.Jacksonized;
 @Jacksonized
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class SyncDocumentRequest {
-    String docSettingsId;
+    String organizationId;
 }
