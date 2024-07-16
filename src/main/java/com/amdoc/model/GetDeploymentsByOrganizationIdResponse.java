@@ -6,8 +6,7 @@ import lombok.Builder;
 import lombok.Value;
 import lombok.experimental.NonFinal;
 import lombok.extern.jackson.Jacksonized;
-
-import java.util.List;
+import org.springframework.data.domain.Page;
 
 @Value
 @NonFinal
@@ -15,5 +14,5 @@ import java.util.List;
 @Jacksonized
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class GetDeploymentsByOrganizationIdResponse {
-    List<DocDeployment> docDeployments;
+    Page<DocDeployment> deploymentPage;
 }
